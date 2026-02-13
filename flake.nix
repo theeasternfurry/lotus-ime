@@ -15,6 +15,7 @@
     devShells.${system}.default = mkShell {
       buildInputs = [
         cargo
+        cargo-edit
         rustc
       ];
     };
